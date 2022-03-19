@@ -1337,6 +1337,30 @@ public class WeaponType extends EquipmentType {
         EquipmentType.addType(new InfantryPistolWhiteDwarfLaserPistolWeapon());
         EquipmentType.addType(new InfantryPistolSMGGHTSpec7aWeapon());
         EquipmentType.addType(new InfantryPistolVintageWeapon());
+        
+        //Shrapnel Pistols
+        EquipmentType.addType(new InfantryPistolAAGemini());
+        EquipmentType.addType(new InfantryPistolAlamo17());
+        EquipmentType.addType(new InfantryPistolCamdenHR7());
+        EquipmentType.addType(new InfantryPistolDreamelDerringer());
+        EquipmentType.addType(new InfantryPistolHCKP14());
+        EquipmentType.addType(new InfantryPistolLemisonCombatRevolver());
+        EquipmentType.addType(new InfantryPistolMomoDeBaoyingSpecial());
+        EquipmentType.addType(new InfantryPistolMomoDeBaoyingStandard());
+        EquipmentType.addType(new InfantryPistolMPH45());
+        EquipmentType.addType(new InfantryPistolNambu380());
+        EquipmentType.addType(new InfantryPistolNambu480());
+        EquipmentType.addType(new InfantryPistolRFWgalahad());
+        EquipmentType.addType(new InfantryPistolSerrek7994());
+        EquipmentType.addType(new InfantryPistolSerrek7994SF());
+        EquipmentType.addType(new InfantryPistolSturmEagleMK4M());
+        EquipmentType.addType(new InfantryPistolSturmEagleMK4P());
+        EquipmentType.addType(new InfantryPistolType74Dpistol());
+        EquipmentType.addType(new InfantryPistolType74Ppistol());
+        EquipmentType.addType(new InfantryPistolWhisper4Standard());
+        EquipmentType.addType(new InfantryPistolWhisper4Subsonic());
+        EquipmentType.addType(new InfantryPistolWolfM30());
+        EquipmentType.addType(new InfantryPistolYanjingshe());
 
         //Clan Pistols - Commented out can be considered Obsolete
         EquipmentType.addType(new InfantryPistolClanERLaserPistolWeapon());
@@ -1346,7 +1370,7 @@ public class WeaponType extends EquipmentType {
         // Infantry Rifles
         EquipmentType.addType(new InfantryRifleAutoRifleWeapon());
         EquipmentType.addType(new InfantryRifleBlazerRifleWeapon());
-        EquipmentType.addType(new InfantryRifleSniperWeapon());
+
         EquipmentType.addType(new InfantryRifleBoltActionWeapon());
         EquipmentType.addType(new InfantryRifleClanERLaserWeapon());
         EquipmentType.addType(new InfantryRifleClanMauserIICIASInfernoWeapon());
@@ -1376,8 +1400,6 @@ public class WeaponType extends EquipmentType {
         EquipmentType.addType(new InfantryRifleMinolta9000Weapon());
         EquipmentType.addType(new InfantryRifleNeedlerWeapon());
         EquipmentType.addType(new InfantryRiflePulseLaserWeapon());
-        EquipmentType.addType(new InfantryRifleRadiumLaserSniperWeapon());
-        EquipmentType.addType(new InfantryRifleStalkerSniperRifleWeapon());
         EquipmentType.addType(new InfantryRifleStrikerCarbineRifleWeapon());
         EquipmentType.addType(new InfantryRifleShredderHeavyNeedlerWeapon());
         EquipmentType.addType(new InfantryRifleStarKingGyroslugCarbineWeapon());
@@ -1388,6 +1410,27 @@ public class WeaponType extends EquipmentType {
         EquipmentType.addType(new InfantryRifleZeusHeavyWeapon());
         EquipmentType.addType(new InfantryRifleVintageWeapon());        
         EquipmentType.addType(new InfantryRifleVSPLaserWeapon());
+        
+        //Sniper Rifles
+        EquipmentType.addType(new InfantrySniperRifleSniperWeapon());
+        EquipmentType.addType(new InfantrySniperRifleRadiumLaserWeapon());
+        EquipmentType.addType(new InfantrySniperStalkerWeapon());
+        EquipmentType.addType(new InfantrySniperRifleBartonAMRAntiArmor());
+        //EquipmentType.addType(new InfantrySniperRifleBartonAMRStandard());
+        //EquipmentType.addType(new InfantrySniperRifleFNFJ12DarkCaste());
+        //EquipmentType.addType(new InfantrySniperRifleFNFJ12SLDF());
+        //EquipmentType.addType(new InfantrySniperRifleHammelMarksman());
+        //EquipmentType.addType(new InfantrySniperRifleLancelotMkV());
+        //EquipmentType.addType(new InfantrySniperRifleLRS53SniperRifle());
+        //EquipmentType.addType(new InfantrySniperRiflePraetorianS3());
+        //EquipmentType.addType(new InfantrySniperRiflePraetorianS5());
+        //EquipmentType.addType(new InfantrySniperRifleSairentosutomu());
+        //EquipmentType.addType(new InfantrySniperRifleSR17SunsKiller());
+        //EquipmentType.addType(new InfantrySniperRifleThorshammer());
+        //EquipmentType.addType(new InfantrySniperRifleWilimtonRS14());
+        //EquipmentType.addType(new InfantrySniperRifleWilimtonRS17Stripped());
+        //EquipmentType.addType(new InfantrySniperRifleYuanLing());
+
         
         // Infantry Shotguns
         EquipmentType.addType(new InfantryShotgunAutomaticWeapon());

@@ -22,14 +22,14 @@ import megamek.common.AmmoType;
 /**
  * @author Ben Grills
  */
-public class InfantryRifleRadiumLaserSniperWeapon extends InfantryWeapon {
+public class InfantrySniperRifleRadiumLaserWeapon extends InfantryWeapon {
 
 	/**
 	 *
 	 */
 	private static final long serialVersionUID = -3164871600230559641L;
 
-	public InfantryRifleRadiumLaserSniperWeapon() {
+	public InfantrySniperRifleRadiumLaserWeapon() {
 		super();
 
 		name = "Rifle (Radium Sniper)";

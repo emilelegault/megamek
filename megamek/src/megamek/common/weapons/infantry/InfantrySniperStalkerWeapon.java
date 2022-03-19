@@ -22,14 +22,14 @@ import megamek.common.AmmoType;
 /**
  * @author Ben Grills
  */
-public class InfantryRifleStalkerSniperRifleWeapon extends InfantryWeapon {
+public class InfantrySniperStalkerWeapon extends InfantryWeapon {
 
     /**
      *
      */
     private static final long serialVersionUID = -3164871600230559641L;
 
-    public InfantryRifleStalkerSniperRifleWeapon() {
+    public InfantrySniperStalkerWeapon() {
         super();
 
         name = "Rifle (Stalker Sniper Rifle)";
