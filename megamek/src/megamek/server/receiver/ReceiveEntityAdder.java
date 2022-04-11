@@ -5,22 +5,18 @@ import megamek.common.enums.GamePhase;
 import megamek.common.force.Force;
 import megamek.common.force.Forces;
 import megamek.common.net.Packet;
-import megamek.common.options.IBasicOption;
-import megamek.common.options.IOption;
+
 import megamek.common.options.OptionsConstants;
 import megamek.common.util.fileUtils.MegaMekFile;
 import megamek.common.verifier.*;
 import megamek.server.Processor.MovementProcessor;
 import megamek.server.Server;
-import megamek.server.ServerBoardHelper;
-import megamek.server.ServerHelper;
-import megamek.server.ServerLobbyHelper;
+
 import org.apache.logging.log4j.LogManager;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static java.lang.Math.ceil;
 
 public class ReceiveEntityAdder {
     /**
